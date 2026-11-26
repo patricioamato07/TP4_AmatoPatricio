@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 688b6aa880667f741a60e6e30ca4f43b, type: 3}
+  m_Name: Ability_Ether
+  m_EditorClassIdentifier: Assembly-CSharp::AbilityData
+  displayName: Ether
+  description: Restaura 20 MP a un aliado cercano.
+  mpCost: 0
+  effect: 2
+  damageType: 2
+  targets: 1
+  power: 1
+  flatAmount: 20
+  shape: 0
+  range: 2
+  lineLength: 4
+  radius: 1
+  buffMultiplier: 1.5
+  buffDuration: 15
+  vfxPrefab: {fileID: 0}

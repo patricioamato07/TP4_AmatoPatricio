@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489723e0fe5b4564db52364d19d4b63c, type: 3}
+  m_Name: Unit_Ogre
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  displayName: Ogre
+  role: 4
+  isPlayerControlled: 0
+  prefab: {fileID: 0}
+  portrait: {fileID: 0}
+  maxHP: 140
+  maxMP: 20
+  attack: 16
+  defense: 6
+  magic: 2
+  speed: 0.6
+  moveRange: 2
+  basicAttack: {fileID: 11400000, guid: 2143e228112e8c6479647202ac3495ab, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: 4d09b70f4970a5a4794cede6fdf99d65, type: 2}

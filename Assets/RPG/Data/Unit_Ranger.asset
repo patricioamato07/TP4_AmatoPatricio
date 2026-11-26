@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 489723e0fe5b4564db52364d19d4b63c, type: 3}
+  m_Name: Unit_Ranger
+  m_EditorClassIdentifier: Assembly-CSharp::UnitData
+  displayName: Ranger
+  role: 1
+  isPlayerControlled: 1
+  prefab: {fileID: 0}
+  portrait: {fileID: 0}
+  maxHP: 100
+  maxMP: 40
+  attack: 14
+  defense: 5
+  magic: 6
+  speed: 1.2
+  moveRange: 4
+  basicAttack: {fileID: 11400000, guid: 529c7cb806209e14eafada772f8b35cd, type: 2}
+  abilities:
+  - {fileID: 11400000, guid: 699b157bef40ddb4790d0135a69d5ffa, type: 2}
